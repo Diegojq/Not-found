@@ -16,40 +16,25 @@ html{
     font-size: 62.5%;
 }
 
-.header{
-    margin: 2rem 0 6.4rem 2.4rem;
-}
-
-.header__title{
-    font-family: "Inconsolata" , monospace;
-    font-size: 2.4rem;
-    font-style: normal;
-    letter-spacing: -0.1rem;
-    color: var(--Gray-1);
-}
 
 .main{
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    align-content:center;
+    flex-wrap: wrap;
+    align-content: center;
 }
 
 .card-left__image{
-    margin-bottom: 6.4rem;
     width: 53.9rem;
     height: 44.7rem;
-}
 
-.card-right{
-    margin-left: 2.4rem;
 }
 
 .card-right__title{
-    margin: 0 0 3rem 0;
-    font-size: 4.8rem;
+    font-size: 6.4rem;
     font-weight: 700;
-    color: var(--Gray-1);
+    line-height: 9.4rem;
+    color: var(--Gray-1)d;
 }
 
 .card-right__description{
@@ -67,20 +52,4 @@ html{
     font-size: 1.4rem;
     font-weight: 700;
     color: var(--white);
-}
-
-.footer{
-    position: relative;
-    bottom: -100px;
-    width: 100%;
-}
-
-.footer__link{
-    display: flex;
-    justify-content:center;
-    padding-bottom: 2.4rem;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 1.4rem;
-    font-weight: 500;
-    color: var(--Gray-3);
 }

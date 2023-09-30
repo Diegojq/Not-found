@@ -85,3 +85,35 @@ html{
     font-weight: 500;
     color: var(--Gray-3);
 }
+
+@media (min-width: 900px){
+    body{
+        width: 100vw;
+        margin:0 auto;
+    }
+
+    .main{
+        max-width: 1400px;
+        display: grid;
+        grid-template-columns: repeat(2 , auto);
+        gap:4.8rem;
+        margin:20rem auto 0;
+    }
+
+    .card-left__image{
+        margin-bottom: 6.4rem;
+        width: 53.9rem;
+        height: 44.7rem;
+    }
+
+    .card-right__title{
+        margin: 0 0 3.6rem 0;
+        font-size: 6.4rem;
+    }
+
+    .card-right__description{
+        margin-bottom: 6.4rem;
+        font-size: 2.4rem;
+    }
+
+}
